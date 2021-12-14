@@ -44,9 +44,9 @@ async def ytdl(_, message):
                                      timedelta(minutes=youtube_next_fetch)
 
     except Exception:
-        await message.reply_text("Failed To Fetch Youtube Data...😔"
+        await message.reply_text("Failed To Fetch Youtube Data.....😔"
                                  "Wait for {wait_time} or try other link"
-                                 "[ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ](https://telegra.ph/file/3f287a7ff7bd6d63fbd60.jpg)")
+                                 "[Pʀᴇᴅ∆ᴛᴏʀ](https://telegra.ph/file/3f287a7ff7bd6d63fbd60.jpg)")
         return
     buttons = InlineKeyboardMarkup(list(create_buttons(formats)))
     sentm = await message.reply_text("Select Audio or Video👇🏻")

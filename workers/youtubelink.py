@@ -16,16 +16,16 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def love(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🍕𝗘𝗗𝗠🍕", url="https://t.me/joinchat/iltGypPXEbNhODY1")],
-        [InlineKeyboardButton("🍤𝗟𝗼-𝗙𝗶🍤:", url="https://t.me/joinchat/A59waiPeCeQ5ODJl")],
-        [InlineKeyboardButton("🍨𝗧𝗥𝗔𝗣.𝗕𝗘𝗔𝗧🍨:", url="https://t.me/joinchat/1xzYUF0HdFw3N2Fl")],
-        [InlineKeyboardButton("🌭𝗡𝗖𝗦🌭:", url="https://t.me/joinchat/aHN50rUyUgphMDll")],
-        [InlineKeyboardButton("🍪𝗣𝗢𝗣🍪:", url="https://t.me/joinchat/yVpEI2q4U3NmZDBl")]
+        [InlineKeyboardButton("⭕ @TellyFun ⭕", url="https://t.me/+VLVXL_BjK5dge1iW")],
+        [InlineKeyboardButton("⭕ @HindiWebNetwork ⭕", url="https://t.me/+ffu_vfyIiU01NTZl")],
+        [InlineKeyboardButton("⭕ BotsList ⭕", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")],
+        [InlineKeyboardButton("⭕ Leech & Mirror ⭕", url="https://t.me/+N9Pi9xjYX6E3YmE9")],
+        [InlineKeyboardButton("⭕ Movies & Demand ⭕", url="https://t.me/+jD86CLZqqUBjZDk1")]
     ])
     youtube_ex = f"""
-**Some example youtube channels and songs if you don't know what u want**📺
-- type /love if i helped u anyway🍗🍔🍟🍕
-```ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ``` """
+**Some example youtube channels and songs if you don't know then what u want**
+- type /github if I helped u in AnyWay. 
+```Pʀᴇᴅ∆ᴛᴏʀ``` """
 
    
     

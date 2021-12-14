@@ -16,14 +16,14 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("⛓**𝔾𝕣𝕠𝕦𝕡**⛓:", url="https://t.me/vrtxmusic")],
-        [InlineKeyboardButton("⚙️**⚙𝕌𝕡𝕕𝕒𝕥𝕖_ℂ𝕙𝕒𝕟𝕟𝕖𝕝**⚙️:", url="https://t.me/vrtxwork")],
-        [InlineKeyboardButton("📨**𝔾𝕚𝕥ℍ𝕦𝕓**📨", url="https://t.me/vrtxwork")],
-        [InlineKeyboardButton("🧬**𝕆𝕨𝕟𝕖𝕣**🧬", url="https://t.me/mastermindvrtx")],
+        [InlineKeyboardButton("♂️ Support ♂️", url="https://t.me/TeleRoid14")],
+        [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup")],
+        [InlineKeyboardButton("👤 Github", url="https://github.com/PredatorHackerzZ")],
+        [InlineKeyboardButton("🤖 BotsList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")],
     ])
     welcomed = f"""
-    🎈Dear,
-        Sir,Ma'am  <b>{message.from_user.first_name}</b>
+    Hello 🙋,
+        Dear User<b>{message.from_user.first_name}</b>
     Use the below button or type /help for More info.
     [📥](https://telegra.ph/file/39812237fd7a1bfc02532.jpg)"""
   

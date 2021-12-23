@@ -139,7 +139,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaDocument(
             media=filename,
             thumb=thumb_image_path,
-            caption=("ፑ𝐫0ṃ @vrtxytbot📥"),
+            caption=("Made With ❤ By @TeleRoidGroup "),
         )
         
 #docvideo needs work
@@ -149,7 +149,7 @@ async def catch_youtube_dldata(c, q):
        # med = InputMediaDocument(
         #    media=filename,
        #     thumb=thumb_image_path,
-      #      caption=("ፑ𝐫0ṃ\n@YoutubeDownloadVrtx_Bot📥"),
+      #      caption=("Check Movies Here @KDramasFlix"),
     #    )
     
     
